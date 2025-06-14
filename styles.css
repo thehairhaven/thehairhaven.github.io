@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0f2e1d;
+  background-color: #2f4f3b; /* lighter green than before */
   color: #f5f5f5;
   text-align: center;
 }
@@ -66,8 +66,8 @@ iframe {
 }
 
 footer {
-  background-color: #0b1f14;
+  background-color: #1c2e25; /* slightly lighter than before */
   padding: 20px 0;
-  color: #888;
+  color: #ccc;
   font-size: 0.9em;
 }
