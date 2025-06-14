@@ -9,7 +9,9 @@
 </head>
 <body>
   <header>
-    <img src="hairHaven.png" alt="The Hair Haven logo" class="logo">
+    <div class="logo-wrapper">
+      <img src="hairHaven.png" alt="The Hair Haven logo" class="logo">
+    </div>
     <h1>The Hair Haven</h1>
     <p class="tagline">Το κομμωτήριο προσφέρει υπηρεσίες υψηλής ποιότητας για γυναίκες, άντρες και παιδιά. Χαρίστε στον εαυτό σας μια μοναδική εμπειρία ομορφιάς σε έναν κομψό και φιλόξενο χώρο στην καρδιά της Γλυφάδας!</p>
   </header>
@@ -46,5 +48,32 @@
   <footer>
     <p>&copy; 2025 The Hair Haven. Όλα τα δικαιώματα διατηρούνται.</p>
   </footer>
+
+<script>
+  window.addEventListener('scroll', function () {
+    const logoWrapper = document.querySelector('.logo-wrapper');
+    if (window.scrollY > 50) {
+      logoWrapper.classList.add('scrolled');
+    } else {
+      logoWrapper.classList.remove('scrolled');
+    }
+  });
+</script>
+
+<script>
+  const logoWrapper = document.querySelector('.logo-wrapper');
+  const tagline = document.querySelector('.tagline');
+
+  window.addEventListener('scroll', () => {
+    const taglineBottom = tagline.getBoundingClientRect().bottom;
+
+    if (taglineBottom < 0) {
+      logoWrapper.classList.add('scrolled');
+    } else {
+      logoWrapper.classList.remove('scrolled');
+    }
+  });
+</script>
+
 </body>
 </html>
