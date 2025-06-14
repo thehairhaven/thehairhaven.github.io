@@ -6,9 +6,24 @@ body {
   text-align: center;
 }
 
+@keyframes fadeInLogo {
+  0% {
+    opacity: 0.1;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .logo {
-  width: 150px;
+  width: 200px;
+  max-width: 80%;
+  height: auto;
   margin-top: 30px;
+  opacity: 0.1;
+  animation: fadeInLogo 1.2s ease-out forwards;
 }
 
 header h1 {
@@ -18,8 +33,10 @@ header h1 {
 }
 
 .tagline {
-  font-size: 1.1em;
-  color: #d4af37;
+  font-size: 1.4em;          /* increased from 1.1em */
+  color: #ffdd75;            /* brighter gold tone */
+  font-weight: 600;          /* optional: makes it bolder */
+  margin-top: 5px;
 }
 
 main {
