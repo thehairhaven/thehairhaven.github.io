@@ -2,140 +2,49 @@
 <html lang="el">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The Hair Haven - Μοντέρνο κομμωτήριο στη Γλυφάδα για γυναίκες, άνδρες και παιδιά. Κουρέματα, χρώμα, νυφικά χτενίσματα και περιποίηση γενειάδας.">
-  <meta name="keywords" content="κομμωτήριο Γλυφάδα, κουρέματα, βαφή μαλλιών, νυφικό χτένισμα, περιποίηση γενειάδας">
-  <meta name="author" content="The Hair Haven">
-  <title>The Hair Haven - Κομμωτήριο Γλυφάδα</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Hair Haven - Κομμωτήριο στην Γλυφάδα. Κούρεμα, βαφή, νυφικά χτενίσματα & ανδρική περιποίηση.">
+  <title>The Hair Haven</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-      background-color: darkolivegreen;
-      color: #1e2f22;
-      scroll-behavior: smooth;
-    }
-    header {
-      text-align: center;
-      padding: 2rem 1rem;
-      background-color: #556b2f;
-    }
-    header img {
-      max-width: 200px;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      color: #f9f4e8;
-      margin-top: 1rem;
-      font-weight: 400;
-    }
-    header p {
-      color: #f9f4e8;
-    }
-    section {
-      padding: 3rem 1rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #556b2f;
-      font-family: 'Playfair Display', serif;
-      font-weight: 400;
-    }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-    .service {
-      background-color: #e3edd3;
-      padding: 1rem;
-      border-radius: 8px;
-      font-weight: 300;
-      border-left: 5px solid #a89b59;
-    }
-    .hours, .contact {
-      background-color: #e3edd3;
-      padding: 1rem;
-      border-radius: 8px;
-      font-weight: 300;
-      border-left: 5px solid #a89b59;
-    }
-    .map {
-      width: 100%;
-      height: 300px;
-      border: 0;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-      font-weight: 300;
-      background-color: #556b2f;
-      color: #f9f4e8;
-    }
-    .social-icons a {
-      margin: 0 0.5rem;
-      color: #a89b59;
-      text-decoration: none;
-    }
-  </style>
 </head>
 <body>
   <header>
-    <img src="hairHaven.png" alt="Λογότυπο The Hair Haven">
-    <h1>Καλωσορίσατε στο The Hair Haven – το καταφύγιό σας για υπέροχα μαλλιά!</h1>
-    <p>Ανακαλύψτε εξειδικευμένες υπηρεσίες κομμωτηρίου για γυναίκες, άνδρες και παιδιά, σε έναν μοντέρνο και ζεστό χώρο στην καρδιά της Γλυφάδας.</p>
+    <img src="hairHaven.png" alt="The Hair Haven logo" class="logo">
+    <h1>The Hair Haven</h1>
+    <p class="tagline">Το κομμωτήριο μας προσφέρει υπηρεσίες υψηλής ποιότητας για γυναίκες, άντρες και παιδιά. Χαρίστε στον εαυτό σας μια μοναδική εμπειρία ομορφιάς σε έναν κομψό και φιλόξενο χώρο στην καρδιά της Γλυφάδας!</p>
   </header>
 
-  <section id="services">
-    <h2>Υπηρεσίες & Τιμές</h2>
-    <div class="services">
-      <div class="service">
-        <h3>Κούρεμα</h3>
-        <p>Γυναίκειο: από 20€<br>Ανδρικό: από 15€<br>Παιδικό: από 10€</p>
-      </div>
-      <div class="service">
-        <h3>Βαφή</h3>
-        <p>Ρίζα: από 25€<br>Ολόκληρο: από 40€<br>Ανταύγειες: από 50€</p>
-      </div>
-      <div class="service">
-        <h3>Νυφικά Χτενίσματα</h3>
-        <p>Πρόβα: από 30€<br>Ημέρα γάμου: από 80€</p>
-      </div>
-      <div class="service">
-        <h3>Περιποίηση Γενειάδας</h3>
-        <p>Ξύρισμα / σχηματισμός: από 10€<br>Πακέτο με κούρεμα: από 20€</p>
-      </div>
-    </div>
-  </section>
+  <main>
+    <section class="services">
+      <h2>Υπηρεσίες</h2>
+      <ul>
+        <li>Γυναικείο & Ανδρικό Κούρεμα</li>
+        <li>Βαφή & Τεχνικές Χρώματος</li>
+        <li>Νυφικά & Ειδικά Χτενίσματα</li>
+        <li>Περιποίηση Γενειάδας</li>
+      </ul>
+    </section>
 
-  <section id="hours">
-    <h2>Ώρες Λειτουργίας</h2>
-    <div class="hours">
+    <section class="hours">
+      <h2>Ώρες Λειτουργίας</h2>
       <p>Δευτέρα - Παρασκευή: 10:00 - 20:00<br>Σάββατο: 10:00 - 16:00<br>Κυριακή: Κλειστά</p>
-    </div>
-  </section>
+    </section>
 
-  <section id="location">
-    <h2>Πού θα μας βρείτε</h2>
-    <div class="contact">
-      <p>Λεωφ. Μεταξά 00, Γλυφάδα, Αθήνα</p>
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.000000000000!2d23.750000000000!3d37.860000000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x0000000000000000!5e0!3m2!1sel!2sgr!4v0000000000000" allowfullscreen="" loading="lazy"></iframe>
-      <div class="social-icons">
-        <a href="#" title="Instagram">Instagram</a>
-        <a href="#" title="Facebook">Facebook</a>
-      </div>
-    </div>
-  </section>
+    <section class="location">
+      <h2>Πού θα μας βρείτε</h2>
+      <p>Λεωφόρος Γλυφάδας 123, Γλυφάδα, Αθήνα</p>
+      <iframe src="https://maps.google.com/maps?q=Glyfada%20Athens&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+    </section>
+
+    <section class="social">
+      <h2>Ακολουθήστε μας</h2>
+      <a href="#" target="_blank">Instagram</a> |
+      <a href="#" target="_blank">Facebook</a>
+    </section>
+  </main>
 
   <footer>
-    &copy; 2025 The Hair Haven. Όλα τα δικαιώματα διατηρούνται.
+    <p>&copy; 2025 The Hair Haven. Όλα τα δικαιώματα διατηρούνται.</p>
   </footer>
 </body>
 </html>
