@@ -1,0 +1,21 @@
+Check if google fonts work ok on iOS
+
+Instagram and facebook feed
+And move the social section to the top
+
+Xtenisma nifiko na mhn exei timh alla katopin synnenohshs
+Etsi k alliws to 150-300 einai poly megalo euros, den parexei kapoia plhroforia
+
+🎯 Bonus Tip: Add schema markup later for Google Rich Results (optional)
+If you're interested, I can help you mark up services and prices using Schema.org so Google can show your services in search result snippets (like a mini menu).
+
+Maybe logo moves to the side when scrolling down. And maybe the menu 'transforms' to some side menu too.
+The problem with this is in mobiles where it overlaps with elements of the sections of main
+So first make the site ok for desktop/mobile without moving the logo to the side and then look at moving the logo and the menu to the side
+Alternatively examine the logo moving to the side and on the same line having the menu? So now no overlap because remaining sections will always follow underneath?
+
+Add animation
+Something like this:
+  animation: fadeInLogo 2s ease-out forwards;
+but as of this writing if i put it in .logo in my css when the page loads it scrolls down a bit (maybe because I start with 0.75) and never scrolls back up
+Although you don't want scrolling at all!
