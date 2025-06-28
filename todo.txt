@@ -1,5 +1,3 @@
-Check if google fonts work ok on iOS
-
 Instagram and facebook feed
 And move the social section to the top
 
@@ -19,3 +17,9 @@ Something like this:
   animation: fadeInLogo 2s ease-out forwards;
 but as of this writing if i put it in .logo in my css when the page loads it scrolls down a bit (maybe because I start with 0.75) and never scrolls back up
 Although you don't want scrolling at all!
+
+
+DONE
+
+Check if google fonts work ok on iOS
+
