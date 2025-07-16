@@ -90,14 +90,18 @@ h2 {
 .service-list {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
 }
 
 .service-item {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+}
+
+.has-subitem {
+  border-bottom: none;
+  padding-bottom: 0.2rem;
 }
 
 .service-item h3,
@@ -124,6 +128,7 @@ h2 {
 .service-subitem {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
   padding-left: 1rem;
   font-size: 0.95rem;
   color: #555;
