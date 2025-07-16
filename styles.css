@@ -1,5 +1,5 @@
 :root {
-  --light-green-ish: #b3cec1;
+  --light-green-ish: #113325;
   --black-ish: #2a2a2a;
   --accent-color: #c1a57b;  
   font-size: 16px;
@@ -51,6 +51,7 @@ a:focus {
 .tagline {
   font-family: "EB Garamond", serif;
   font-size: 2rem;
+  color: #d9b65c;
   margin: 0;
 }
 
@@ -83,7 +84,7 @@ h2 {
 .hours h2 {
   margin-bottom: 2rem;
   text-align: center;
-  color: darkolivegreen;
+  color: #111;
 }
 
 .service-list {
